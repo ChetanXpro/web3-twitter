@@ -1,4 +1,7 @@
 {
+	"contracts": {
+		"Twitter": "./contracts/Twitter.cdc"
+	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
 		"mainnet": "access.mainnet.nodes.onflow.org:9000",
@@ -9,6 +12,16 @@
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
 			"key": "4867b580720008f3058272c50d9473ab3be0eaea3283412934745bd5b2640b27"
+		},
+		"twitter": {
+			"fromFile": "twitter.private.json"
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"twitter": [
+				"Twitter"
+			]
 		}
 	}
 }
