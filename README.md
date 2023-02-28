@@ -1,4 +1,4 @@
-# (WIP) web3-twitter
+# web3-twitter
 Build on flow blockchain
   
 # Send Transactions
